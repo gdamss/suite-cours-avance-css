@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: white;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.5), 5px 5px 3px red ;
+    text-shadow: 1px 1px 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

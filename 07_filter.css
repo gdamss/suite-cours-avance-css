@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body img{
+    width: 300px;
+    /* filter: blur(1px); */
+    /* filter: brightness(30%); */
+    /* filter: contrast(30%); */
+    /* filter: drop-shadow(5px 5px 2px red); */
+    /* filter: grayscale(50%); */
+    /* filter: sepia(100%); */
+    /* filter: grayscale(100%); */
+    opacity: 0.5;
+}
+
+body img:hover{
+    /* filter: grayscale(0%); */
+    opacity: 1;
+}
